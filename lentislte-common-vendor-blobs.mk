@@ -143,7 +143,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lentislte-common/proprietary/lib/F16US_libchromatix_imx240_zslshot_iso800_cpp.so:system/lib/F16US_libchromatix_imx240_zslshot_iso800_cpp.so \
     vendor/samsung/lentislte-common/proprietary/lib/F16US_libchromatix_imx240_zslshot_lls_cpp.so:system/lib/F16US_libchromatix_imx240_zslshot_lls_cpp.so \
     vendor/samsung/lentislte-common/proprietary/lib/F16US_libchromatix_imx240_zslshot_pip_cpp.so:system/lib/F16US_libchromatix_imx240_zslshot_pip_cpp.so \
-    vendor/samsung/lentislte-common/proprietary/lib/hw/camera.apq8084.so:system/lib/hw/camera.apq8084.so \
+    vendor/samsung/lentislte-common/proprietary/lib/hw/camera.vendor.apq8084.so:system/lib/hw/camera.vendor.apq8084.so \
     vendor/samsung/lentislte-common/proprietary/lib/libTsAe.so:system/lib/libTsAe.so \
     vendor/samsung/lentislte-common/proprietary/lib/libTsAf.so:system/lib/libTsAf.so \
     vendor/samsung/lentislte-common/proprietary/lib/libTs_J_Accm.so:system/lib/libTs_J_Accm.so \
@@ -299,16 +299,16 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lentislte-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/samsung/lentislte-common/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/samsung/lentislte-common/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/samsung/lentislte-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/lentislte-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
-    vendor/samsung/lentislte-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
-    vendor/samsung/lentislte-common/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/samsung/lentislte-common/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/samsung/lentislte-common/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/samsung/lentislte-common/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/samsung/lentislte-common/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
+    vendor/samsung/lentislte-common/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/samsung/lentislte-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/samsung/lentislte-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/samsung/lentislte-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/samsung/lentislte-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/lentislte-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/lentislte-common/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/samsung/lentislte-common/proprietary/etc/gps.conf:system/etc/gps.conf \
@@ -346,7 +346,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lentislte-common/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
     vendor/samsung/lentislte-common/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/samsung/lentislte-common/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
-    vendor/samsung/lentislte-common/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
     vendor/samsung/lentislte-common/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/samsung/lentislte-common/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/samsung/lentislte-common/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
