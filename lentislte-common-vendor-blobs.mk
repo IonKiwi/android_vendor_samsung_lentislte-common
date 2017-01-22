@@ -143,7 +143,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lentislte-common/proprietary/lib/F16US_libchromatix_imx240_zslshot_iso800_cpp.so:system/lib/F16US_libchromatix_imx240_zslshot_iso800_cpp.so \
     vendor/samsung/lentislte-common/proprietary/lib/F16US_libchromatix_imx240_zslshot_lls_cpp.so:system/lib/F16US_libchromatix_imx240_zslshot_lls_cpp.so \
     vendor/samsung/lentislte-common/proprietary/lib/F16US_libchromatix_imx240_zslshot_pip_cpp.so:system/lib/F16US_libchromatix_imx240_zslshot_pip_cpp.so \
-    vendor/samsung/lentislte-common/proprietary/lib/hw/camera.apq8084.so:system/lib/hw/camera.apq8084.so \
+    vendor/samsung/lentislte-common/proprietary/lib/hw/camera.vendor.apq8084.so:system/lib/hw/camera.vendor.apq8084.so \
     vendor/samsung/lentislte-common/proprietary/lib/libTsAe.so:system/lib/libTsAe.so \
     vendor/samsung/lentislte-common/proprietary/lib/libTsAf.so:system/lib/libTsAf.so \
     vendor/samsung/lentislte-common/proprietary/lib/libTs_J_Accm.so:system/lib/libTs_J_Accm.so \
