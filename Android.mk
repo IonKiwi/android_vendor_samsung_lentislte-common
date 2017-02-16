@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(BOARD_VENDOR),samsung)
+ifneq ($(filter kccat6xx lentislte,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libtime_genoff
@@ -39,4 +39,3 @@ LOCAL_CERTIFICATE := platform
 include $(BUILD_PREBUILT)
 
 endif
-
